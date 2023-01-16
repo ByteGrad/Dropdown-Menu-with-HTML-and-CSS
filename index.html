@@ -25,14 +25,41 @@
   
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#">Solutions</a>
-          </li>
-          <li class="nav__item">
+          <li class="nav__item dropdown">
             <a class="nav__link" href="#">Projects</a>
           </li>
           <li class="nav__item">
-            <a class="btn" href="#">Contact</a>
+            <a class="nav__link" href="#">Company</a>
+          </li>
+          <li class="nav__item dropdown">
+            <a class="nav__link" href="#">Solutions &#x25BE;</a>
+
+            <ul class="dropdown__list">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Solution #1</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Solution #2</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Solution #3</a>
+              </li>
+
+              <li class="dropdown__item submenu">
+                <a href="#" class="dropdown__link">More solutions &#x25B8;</a>
+
+                <ul class="submenu__list">
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Solution A</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Solution B</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+
           </li>
         </ul>
       </nav>
